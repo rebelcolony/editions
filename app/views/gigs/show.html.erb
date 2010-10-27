@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @gig.title %>
+</p>
+
+<p>
+  <b>Venue:</b>
+  <%= @gig.venue %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%= @gig.city %>
+</p>
+
+<p>
+  <b>Country:</b>
+  <%= @gig.country %>
+</p>
+
+<p>
+  <b>Date:</b>
+  <%= @gig.date %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @gig.description %>
+</p>
+
+<p>
+  <b>Map:</b>
+  <%= @gig.map %>
+</p>
+
+
+<%= link_to 'Edit', edit_gig_path(@gig) %> |
+<%= link_to 'Back', gigs_path %>
