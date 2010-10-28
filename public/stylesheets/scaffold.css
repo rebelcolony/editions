@@ -1,4 +1,36 @@
 
+#wrapper {
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+body#gigs_template {
+	background:#231f20;
+}
+
+#banner {
+	width:466px;
+	height:75px;
+	margin-left:auto;
+	margin-right:auto;
+	background:url("../images/joof_editions_logo.png");
+}
+
+#gigs_table {
+	width:960px;
+	font:bold 24px/18px "Trebuchet MS", Sans-serif;
+	letter-spacing: -1px;
+	padding:0;
+	text-shadow: 0 1px 1px #000;
+}
+
+.admin_links {
+	font-size:10px;
+	font-weight:normal;
+	text-shadow: none;
+	letter-spacing: -0.0px;
+}
 
 #notice {
   color: green;

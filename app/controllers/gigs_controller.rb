@@ -1,7 +1,8 @@
 class GigsController < ApplicationController
  
   def index
-    @gigs = Gig.all
+    @gigs = Gig.all(:order => 'date ASC')
+    render :layout => "application"
   end
 
   def show
